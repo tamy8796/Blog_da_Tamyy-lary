@@ -11,8 +11,22 @@ header{
     text-align: center;
     background:rgb(18, 101, 126);
     padding: 30px;
-    
-
+    width: 100vw;/* view width */
+    height: 30vw;/* view height */
+background:url(../imagens/th.jpg) ;
+}
+ ....{
+    width: 100vw;/* view width */
+    height: 100vw;/* view height */
+    background-color: #0069c0;
+}
+...{
+    margin-top: 300px;
+    background-color: #0069c0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
 }
 header h1{
     font-size: 50px;
