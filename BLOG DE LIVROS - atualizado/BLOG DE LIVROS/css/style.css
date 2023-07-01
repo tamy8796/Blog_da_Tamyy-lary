@@ -1,12 +1,12 @@
 
 *{
     box-sizing: border-box;
-    text-decoration-color: black;
+    
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: url(../imagens/🦋\ borboletas.jpeg)
+    background:black;
 
 }
 header{
@@ -24,7 +24,7 @@ img {
 }
 header h1{
     font-size: 50px;
-    color: black;
+    color:
 }
 nav ul{
     list-style-type: none;
@@ -44,7 +44,7 @@ nav li {
 }
 nav a:hover {
     background-color: white;
-    color: rgb(75, 102, 109);
+    color: hsl(192, 42%, 86%);
 }
     h1 {
         text-align: center;
@@ -85,10 +85,10 @@ aside {
  
 }
 .card {
-    background-color: #4682B4 ;
+    background:#86ced8;
     padding: 20px;
     margin-top: 20px;
-    box-shadow: 0 4px  8px #999;
+    box-shadow: 0 4px  8px #0a0606;
 
 }
 footer dt{
