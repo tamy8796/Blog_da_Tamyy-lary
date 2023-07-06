@@ -6,17 +6,20 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: url(../imagens/🦋\ borboletas.jpeg)
+    background:url(../imagens/back_geral.png);
 
 }
 header{
     text-align: center;
-    background:rgb(18, 101, 126);
+    background:wheat;
     padding: 30px;
     width: 100vw;/* view width */
     height: 20vw;/* view height */
-    background:url(../imagens/🦋\ borboletas.jpeg) ;
+    background:url(../imagens/headerSR.png);
 background-size: cover;
+height:449px;
+
+<img alt="SEMPRE ROMÂNTICA" height="449px; " id="Header1_headerimg" src="https://blogger.googleusercontent.com/img/a/AVvXsEjNgQrdmInkQP9ts0WJLk-WM5P4ewy64IRSq__yMEkZdwKfNprITQggOK2fhlZmkSzMy24n1EvHxLWZC3dOpFF5xz_xQLrUa6t1GyzeOKt6tW-eh7rbvlROuE_8elafIYwda4zYQaEMH__aDrA7CXIrvkK0HbaR5Wx6y6W_nlr_XDc2GWMOtCqrL211=s887" style="display: block" width="887px; ">
 
 }
 img {
@@ -28,7 +31,7 @@ header h1{
 }
 nav ul{
     list-style-type: none;
-    background:  linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8));
+    background:#856b6b ;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -59,7 +62,7 @@ nav a:hover {
     }
 footer {
     padding: 20px;
-    background-color:  rgb(75, 102, 109);
+    background-color: #856b6b ;
     color: white;
     margin-top: 20px;
     display: table;
@@ -85,7 +88,7 @@ aside {
  
 }
 .card {
-    background-color: #4682B4 ;
+    background-color:#856b6b;
     padding: 20px;
     margin-top: 20px;
     box-shadow: 0 4px  8px #999;
