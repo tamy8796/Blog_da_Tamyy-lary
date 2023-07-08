@@ -24,17 +24,15 @@
                     <a  class="btn" href="#">home</a></li>
                     <a  class="btn" href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/sobre.html">sobre</a>
                     <a class="btn" href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/contato.html">contato</a>
-                    <div class="close-iconi">
+                    <div class="close-iconi" onclick="closeMenu()">
                         <i class="fa-solid fa-circle-xmark"></i>
                     </div>
                 </ul>
-                <div class="menu-iconi">
-                    <i class="fa-solid fa-bars" style="color: #9b465f;"></i>
+                <div class="menu-iconi" onclick="openMenu()">
+                    <i class="fa-solid fa-bars fa-beat"></i>
                 </div>
-
                 <!--menu do site-->
-                <div class="menu-iconi" onclick="openMenu">
-
+                <div class="menu-iconi" onclick="openMenu()">
                 </div>
              </nav>
         </div>
@@ -131,21 +129,6 @@
         </div>
     <!--fim container--> 
     </section>
-    <!--fim outras obras-->
-    <section class="compras">
-    <!--sessao sites de-->
-            <div class="container">
-                <h3>Sites De Compras</h3>
-                <p>Adquire seu exemplar para uma boa leitura </p>
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-            </div>
-    </section>
-    <!--fim da sessao de site de compras-->
     <section class="selecao-de-livros">
     <!--container-->
         <div class="container">
@@ -185,7 +168,7 @@
             </div>
         </footer>
         <!--fim do foorter-->
-   
+   <script src="/js/main.js"></script>
     </body>
 </html>
 
