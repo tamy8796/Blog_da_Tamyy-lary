@@ -13,7 +13,7 @@
   <!--header-->
     <header style="background-image: url('../imagens/headerSR.png');">
         <div class="container">
-            <nav>
+             <nav>
                 <!--logo do dite-->
                 <a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/index.html">
                     <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/0.png" aling="left" alt="logo" width="100px" height="100px"> 
@@ -24,77 +24,87 @@
                     <a  class="btn" href="#">home</a></li>
                     <a  class="btn" href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/sobre.html">sobre</a>
                     <a class="btn" href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/contato.html">contato</a>
+                    <div class="close-iconi">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
                 </ul>
                 <div class="menu-iconi">
                     <i class="fa-solid fa-bars" style="color: #9b465f;"></i>
                 </div>
 
                 <!--menu do site-->
-                <div class="menu-iconi"></div>
-            </nav>
+                <div class="menu-iconi" onclick="openMenu">
+
+                </div>
+             </nav>
+        </div>
             <!-- banner do site-->
-            <section class="banner">
+    <section class="banner">
                 <div class="banner-text">
                     <h1>Blog</h1>
-                    <p>conteudo da pagina</p>
-                    <!--botao do login-->
-                    <a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/sobre.html" class="btn animate-btn">login
-                    </a>
-                    <!--fim do botao do login-->
+                        <p>conteudo da pagina</p>
+                        <!--botao do login-->
+                        <a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/sobre.html" class="btn animate-btn">login
+                        </a>
+                        <!--fim do botao do login-->
                 </div>
-            </section>
+    </section>
             <!-- fim do banner do site-->
-        </div>
         <!--end container-->
     </header>
     <!--fim do header-->
     <!--selecao de livros-->
-<section class="selecao-de-livros">
-    <!--container-->
-    <div class="container">
-       <div class="selecao-de-livros-text">
-        <h3>Perdida </h3><h4>de Carina Rissi</h4>
-        <p>Perdida é o título de estreia de Carina Rissi. O primeiro livro <br>da série best-seller homônima que estabeleceu a autora como <br>uma das escritoras mais queridas entre leitores de todas <br>as idades.
-
-            Neste livro conhecemos Sofia, que vive em <br>uma metrópole e está acostumada com a modernidade e as facilidades <br>que ela traz. Ligeiramente viciada em tecnologia <br>acredita que não saberia viver sem computador, celular e...</p>
-       </div> 
+    <section class="selecao-de-livros">
+        <!--container-->
+        <div class="container">
+            <div class="selecao-de-livros-text">
+                <h3>Perdida </h3><h4>de Carina Rissi</h4>
+                <p>Perdida é o título de estreia de Carina Rissi.
+                     O primeiro livro <br>da série best-seller
+                     homônima que estabeleceu a autora como <br>uma das escritoras 
+                     mais queridas entre leitores de todas <br>as idades.
+                    Neste livro conhecemos Sofia, que vive em <br>uma metrópole e está 
+                    acostumada com a modernidade e as facilidades <br>que ela traz. Ligeiramente 
+                    viciada em tecnologia <br>acredita que não saberia
+                    viver sem computador, celular e...
+                </p>
+            </div> 
        <div class="selecao-de-livros-img">
         <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/perdida-capa.png" alt="livro perdida" width="" height="">
        </div>
-       
-    </div>
-    <!--fim container-->
-</section>
-<!--fim  selecao de livros 2-->
-<!--selecao de livros-->
-<section class="selecao-de-livros">
+        </div>
+        <!--fim container-->
+    </section>
+    <!--fim  selecao de livros 2-->
+    <!--selecao de livros-->
+    <section class="selecao-de-livros">
     <!--container-->
-    <div class="container">
-       <div class="selecao-de-livros-img">
-        <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/desencantada....jpg" alt="livro Desencantada" width="" height="">
-       </div>
-       <div class="selecao-de-livros-text">
-        <h3>Desencantada</h3><h4>de Carina Rissi</h4>
-        <p>"O quinto volume da série best-seller Perdida."<br>
-            Valentina de Albuquerque descobriu muito cedo <br>que não é
-            nenhuma princesa encantada. Em vez <br> de bailes e romance, tudo 
-            o que a jovem deseja é encontrar <br>um jeito de vivercom dignidade 
-             longe do pai e da madrasta, que <br>tem como hobby fazer da vida dela um inferno.
-            A oportunidade <br>surge com uma proposta de casamento. </p>
-       </div> 
+        <div class="container">
+            <div class="selecao-de-livros-img">
+                <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/desencantada....jpg" alt="livro Desencantada" width="" height="">
+            </div>
+            <div class="selecao-de-livros-text">
+                 <h3>Desencantada</h3><h4>de Carina Rissi</h4>
+                <p>"O quinto volume da série best-seller Perdida."<br>
+                 Valentina de Albuquerque descobriu muito cedo <br>que não é
+                 nenhuma princesa encantada. Em vez <br> de bailes e romance, tudo 
+                 o que a jovem deseja é encontrar <br>um jeito de vivercom dignidade 
+                 longe do pai e da madrasta, que <br>tem como hobby fazer da vida dela um inferno.
+                 A oportunidade <br>surge com uma proposta de casamento. </p>
+            </div> 
        
-    </div>
+        </div>
     <!--fim do container-->
-</section>
-<!--fim da selecao de livros 2-->
-<!--outras obras-->
-<section class="outras-obras">
+    </section>
+    <!--fim da selecao de livros 2-->
+    <!--outras obras-->
+    <section class="outras-obras">
     <!--containe-->
-    <div class="container">
-            <h3>outras Obras</h3>
-            <p>De Carina Rissi</p>
+         <div class="container">
+                <h3>outras Obras</h3>
+                <p>De Carina Rissi</p>
         <!--cards mae-->
-        <div class="cards-mae"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ">
+            <div class="cards-mae"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ">
                 <!-- card item 1-->
                 <div class="card-item">
                      <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/menina veneno.jpg" alt=" menina veneno">
@@ -116,32 +126,32 @@
                      <p class="outras-obras-user"></p>
                 </div>
                 <!-- fim card item 3-->
-        </div>
+            </div>
         <!--fim cards mae-->
-    </div>
-    <!--fim container--> 
- </section>
-<!--fim outras obras-->
-<section class="compras">
-    <!--sessao sites de-->
-    <div class="container">
-        <h3>Sites De Compras</h3>
-        <p>Adquire seu exemplar para uma boa leitura </p>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
         </div>
-    </div>
-</section>
-<!--fim da sessao de site de compras-->
-<section class="selecao-de-livros">
+    <!--fim container--> 
+    </section>
+    <!--fim outras obras-->
+    <section class="compras">
+    <!--sessao sites de-->
+            <div class="container">
+                <h3>Sites De Compras</h3>
+                <p>Adquire seu exemplar para uma boa leitura </p>
+                <div>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+    </section>
+    <!--fim da sessao de site de compras-->
+    <section class="selecao-de-livros">
     <!--container-->
-    <div class="container">
-       <div class="selecao-de-livros-text">
-        <h3>Lançamento do filme baseado no livro "Perdida"</h3><h4>de Carina Rissi</h4>
-        <p>Sinopse: 
+        <div class="container">
+            <div class="selecao-de-livros-text">
+                <h3>Lançamento do filme baseado no livro "Perdida"</h3><h4>de Carina Rissi</h4>
+                <p>Sinopse: 
 
             Sofia é uma garota moderna e independente, mas quando o assunto <br> 
             é amor, os únicos romances da sua vida são aqueles do universo <br>
@@ -155,29 +165,28 @@
             Curiosidades: 
             
             » O longa é baseado no livro homônimo escrito por Carina Rissi;</p>
-       </div> 
-       <div class="selecao-de-livros-img">
-        <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/poste do fime perdida.jpg" alt="poster do filme perdida" width="" height="">
-       </div>
+            </div> 
+            <div class="selecao-de-livros-img">
+                <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/poste do fime perdida.jpg" alt="poster do filme perdida" width="" height="">
+            </div>
        
-    </div>
+        </div>
     <!--fim container-->
-</section>
-<!--foorter-->
-    <footer class="foorter-mae">
-        <div class="img">
-            <img src="../imagens/facebook.png" alt="facebook">
-            <img src="../imagens/instagram.png" alt="instagram">
-            <img src="../imagens/linkedin.png" alt="linkedin">
-        </div>
-        <div class="h4">
-        <H4>Desenvolvido por Tamiris e Larissa</H4>
-        </div>
-    </footer>
-    <!--fim do foorter-->
- </div>   
-</body>
-
+    </section>
+        <!--foorter-->
+         <footer class="foorter-mae">
+            <div class="img">
+                <img src="../imagens/facebook.png" alt="facebook">
+                <img src="../imagens/instagram.png" alt="instagram">
+                <img src="../imagens/linkedin.png" alt="linkedin">
+            </div>
+            <div class="h4">
+                <H4>Desenvolvido por Tamiris e Larissa</H4>
+            </div>
+        </footer>
+        <!--fim do foorter-->
+   
+    </body>
 </html>
 
 
