@@ -70,10 +70,12 @@ nav ul a::after{
 nav ul a :hover::after{
     width: 100%;
 }
+/* introducao do icone de menu*/
 nav .menu-iconi{
     cursor: pointer;
     font-size: 25px;
     color: #833636;
+    display: none;
 }
 /* fim da tag nav */
 
@@ -236,7 +238,10 @@ align-items: center;
 .foorter-mae .h4{
  font-size: 30px;
 }
-
+@media (max-width:830px) {
+    /* menu mobile */
+    nav .menu-iconi
+}
 
 
 
