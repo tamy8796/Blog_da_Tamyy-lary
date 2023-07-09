@@ -135,6 +135,9 @@ color: black;
 
 /* classe seleção de livros */
 
+.selecao-de-livros h3, p{
+    text-align: center;
+}
 .selecao-de-livros .container{
     display: flex;
     align-items: center;
@@ -161,6 +164,7 @@ color: black;
 .cards-mae{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .outras-obras h3{
