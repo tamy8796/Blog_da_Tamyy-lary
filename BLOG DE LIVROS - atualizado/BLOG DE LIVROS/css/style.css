@@ -35,6 +35,8 @@ header{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    width:100% ;
+    height: 800px;
 }
 /* tag nav*/
 nav{
@@ -204,16 +206,24 @@ color: black;
 /* fim da classe outras obras*/
 
 /* sites de compras*/
-.compras h3,
+.compras h3, h4,
 .compras p {
     text-align: center;
-
+margin: 0 0 10px ;
+}
+.compras {
+    height: 200px;
+    margin: 60px;
 }
 .compras .container div{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+.compras .container .img img{ 
+    width: 80px;
+    height: 80px;
 }
 
 /* foorter*/
@@ -317,14 +327,12 @@ align-items: center;
 }
 
 /* criacao do blog*/
-.card3{
-    display: block;
+.card3 .container{
+    display: flex;
     align-items: center;
-    margin: 0;
+    justify-content: space-between;
 }
-.card3 h3{
-    text-align: center;
-}
+
 .card-item:hover p{
     margin-bottom: 30px;
     text-align: center;
@@ -334,14 +342,9 @@ align-items: center;
     margin: 15px 50px 15px; 
     border-radius: 15px;
     text-align: center;
-    width: 350px;
+    width:auto;
+    height: 100%;
     align-items: center;
-}
-.card3 .card-item img{
-    border-radius: 100%;
-    width: 100%;
-    display: block;
-    margin: 80px auto;
 }
 .card3 .card-item .nome-user{
     font-weight: 600px;
@@ -360,7 +363,7 @@ align-items: center;
     margin-top: -5px;
 }
 .card3 .card-item:hover .nome-user,
-.card3 .card-item:hover .outras-obras-user{
+.card3 .card-item:hover{
     color:white ;
 }
 
