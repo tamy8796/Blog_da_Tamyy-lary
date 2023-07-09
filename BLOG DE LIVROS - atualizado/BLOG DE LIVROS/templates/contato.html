@@ -2,54 +2,80 @@
 <html lang="pt-br">  
 <head>
     
-    <title>BLOG  contato</title>
+    <title>Vivendo em Livros</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/css/style.css">
+    <script src="https://kit.fontawesome.com/d8ab5a5db9.js" crossorigin="anonymous"></script>
 </head> 
 
-<body>
-  
-    <header>
-        <h1>Contato</h1>
-    </header>
-    <nav>
-            
-   <ul>
-    <li><a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/index.html">home</a></li>
-    <li><a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/sobre.html">sobre</a></li>
-    <li><a href="#">contato</a></li>
-     <li><a href="https://resenhandosonhos.com/" target="_blank">blog do livro</a></li>
-   
-</ul>
- </nav>
+<body><header style="background-image: url('../imagens/headerSR.png" class="contato">
+    <div class="container">
+         <nav>
+            <!--logo do dite-->
+            <a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/index.html">
+                <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/0.png" aling="left" alt="logo" width="100px" height="100px"> 
+            </a>
+            <!--fim do logo do site-->
+            <!--menu do site-->
+            <ul class="ul">
+                <a  class="btn" href="../templates/login.html">home</a></li>
 
-    <div class="row">
-        <form class="card">
-            <label for="inputnome">Primeiro nome</label>
-            <input type="text" id="inputnome" required  maxlength="25">
-
-            <label for="inputE-mail">E-mail</label>
-            <input type="text" id="inputE-mail" required maxlength="50">
-
-            <label for="">Mensagem</label>
-            <textarea name="textareaMensagem" id="textareaMensagem" required maxlength="100"></textarea>
-            <button>Envia Mensagem</button>
-        </form>
+                <div class="close-iconi" onclick="closeMenu()">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </ul>
+            <div class="menu-iconi" onclick="openMenu()">
+                <i class="fa-solid fa-bars fa-beat"></i>
+            </div>
+            <!--menu do site-->
+            <div class="menu-iconi" onclick="openMenu()">
+            </div>
+         </nav>
+    </div>
+    <!--end container-->
+</header>
+<section class="contato"> 
+    <div class="container">
+        <div class="contato-info">
+            <div class="left-side">
+                
+                <div><i class="fa-solid fa-envelope fa-beat"></i>
+                <p>Vivendoemlivro@gmail.com</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram fa-beat"></i>
+                    <p>@vivendo_em_livros</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook fa-beat"></i>
+                    <p>Vivendo-em-livros.oficial</p>
+                </div>
+            </div>
+            <div class="right-side">
+                <form>
+                  <input type="text" placeholder="Nome" required>  
+                  <input type="email" placeholder="E-mail" required>
+                  <input type="text" placeholder="Assunto" required>
+                  <textarea  cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+                  <button class="bnt">Enviar</button>
+                </form>
+            </div>
+        </div>
         
     </div>
      
-    <footer>
-        <dl>
-            <dt>E-mail</dt>
-            <dd>Blogdasmeninas.@gmail.com</dd><br>
-
-            <dt>Telefone</dt>
-            <dd>(11) 97092-2158</dd>
-        </dl>
-        <p>Blog das Meninas</p>
+    <footer class="foorter-mae">
+        <div class="img">
+            <img src="../imagens/facebook.png" alt="facebook">
+            <img src="../imagens/instagram.png" alt="instagram">
+            <img src="../imagens/linkedin.png" alt="linkedin">
+        </div>
+        <div class="h4">
+            <H4>Desenvolvido por Tamiris e Larissa</H4>
+        </div>
     </footer>
  </div>   
-</body>
+</body> 
 
 </html>

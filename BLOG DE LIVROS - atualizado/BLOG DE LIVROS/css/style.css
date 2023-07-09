@@ -7,10 +7,8 @@
     outline: none;
     
 }
-
 body{
-background:url(../imagens/fundo\ rosa.avif);
-
+background:url(../imagens/fundo\ rosa.avif) ;
 }
 
 select, footer{
@@ -23,7 +21,7 @@ h3{
 }
 
 p{
-    color: #360e0e;
+    color:rgb(10, 10, 10);
 }
 .container{
     max-width: 1400px;
@@ -36,7 +34,7 @@ header{
     background-size: cover;
     background-attachment: fixed;
     width:100% ;
-    height: 800px;
+    height: 700px;
 }
 /* tag nav*/
 nav{
@@ -53,7 +51,7 @@ nav ul {
 }
 
 nav ul a {
-    color: black;
+    color: white;
     margin: 0 25px;
     text-transform: uppercase;
     font-size: 14px;
@@ -62,7 +60,7 @@ nav ul a {
 
 nav ul a::after{
  content: "";
- background-color: rgba(134, 64, 64, 0.89);
+ background-color: rgba(241, 225, 225, 0.89);
  height: 3px;
  width: 0%;
  display: block;
@@ -76,7 +74,7 @@ nav ul a :hover::after{
 nav .menu-iconi{
     cursor: pointer;
     font-size: 25px;
-    color: #4e182d;
+    color:white;
     display: none;
 }
 nav .close-iconi{
@@ -90,8 +88,8 @@ nav .close-iconi{
 /*  classe btn */
 
 .btn{
-    background-color: #996060;
-    color: rgb(5, 5, 5);
+    background-color: #aa2970;
+    color:white;
     padding: 15px 20px ;
     border-radius: 10px;
     cursor: pointer;
@@ -102,7 +100,7 @@ nav .close-iconi{
     animation: animate-outline 1s ease-out infinite;
 }
 .btn:hover{
-    background-color: #5c2424d8;
+    background-color: #2b1123d8;
 }
 /* fim btn */
 
@@ -110,16 +108,26 @@ nav .close-iconi{
 
 @keyframes animate-outline{
     from{
-         outline: 0px solid #924e4ed8;
+         outline: 0px solid #562b5ed8;
     }
     to{
    outline: 15px solid #4f9bf900;
     }
 }
+.banner{
+    margin: 50px;
+}
+.banner a{
+    width: 130px;
+    height: auto;
+    margin: 150px;
+    align-items: center;
+}
 .banner .banner-text{
     margin: 150px;
     text-align: center;
     padding: 0 90px;
+    justify-content: center;
 }
 .banner .banner-text h1{
 font-size: 96px;
@@ -127,7 +135,7 @@ color: black;
 }
 .banner.banner-text p{
     font-size: 20px;
-    color: rgba(68, 25, 39, 0.808);
+    color: rgba(219, 206, 210, 0.808);
     font-weight: lighter;
     margin:18px 0 ;
 }
@@ -175,7 +183,7 @@ color: black;
     text-align: center;
 }
 .outras-obras .card-item{
-    background-color:#ac8080 ;
+    background-color:#5c0c3a ;
     margin: 15px; 
     border-radius: 14px;
     text-align: center;
@@ -200,7 +208,7 @@ color: black;
 }
 
 .outras-obras .card-item:hover{
-    background-color: #833636;
+    background-color: #db76b4;
     margin-top: -5px;
 }
 .outras-obras .card-item:hover .nome-user,
@@ -232,7 +240,7 @@ color: black;
 
 /* foorter*/
 .foorter-mae{
-    background-color: #833636;
+    background-color: #5c0c3a;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -252,14 +260,26 @@ align-items: center;
 .foorter-mae .h4{
  font-size: 20px;
 }
-
+.contato-info{
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 50px ;
+}
+.contato-info .left-side{
+    width:  400px;
+    padding: 38px;
+    background-color: #33032f;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;
+}
 @media (max-width:830px) {
     /* menu mobile */
    .ul{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #bd8195;
+    background-color: #33032f;
     width: 100%;
     height: 100%;
     flex-direction:column ;
@@ -297,7 +317,7 @@ align-items: center;
     text-align: center;
 }
 .card2 .card-item{
-    background-color:#ac8080 ;
+    background-color:#aa2970 ;
     margin: 15px 50px 15px; 
     border-radius: 15px;
     text-align: center;
@@ -322,7 +342,7 @@ align-items: center;
 }
 
 .card2 .card-item:hover{
-    background-color: #833636;
+    background-color: #8b2a6e;
     margin-top: -5px;
 }
 .card2 .card-item:hover .nome-user,
@@ -363,7 +383,7 @@ align-items: center;
 }
 
 .card3 .card-item:hover{
-    background-color: #833636;
+    background-color: #861a59;
     margin-top: -5px;
 }
 .card3 .card-item:hover .nome-user,
