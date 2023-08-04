@@ -9,62 +9,62 @@
     <script src="https://kit.fontawesome.com/d8ab5a5db9.js" crossorigin="anonymous"></script>
 </head> 
 
-<body><header style="background-image: url('../imagens/headerSR.png" class="contato">
-    <div class="container">
-         <nav>
-            <!--logo do dite-->
-            <a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/index.html">
-                <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/0.png" aling="left" alt="logo" width="100px" height="100px"> 
-            </a>
-            <!--fim do logo do site-->
-            <!--menu do site-->
-            <ul class="ul">
-                <a  class="btn" href="../templates/login.html">home</a></li>
+<body>
+    <header style="background: url(../imagens/headerSR.png);" class="cabecario">
+        <div class="container">
+             <nav>
+                <!--logo do dite-->
+                <a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/index.html">
+                    <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/0.png" aling="left" alt="logo" width="100px" height="100px"> 
+                </a>
+                <!--fim do logo do site-->
+                <!--menu do site-->
+                <ul class="ul">
+                    <a  class="btn" href="../templates/login.html">home</a>
+                    <div class="close-iconi" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </ul>
+                <div class="menu-iconi" onclick="openMenu()">
+                    <i class="fa-solid fa-bars fa-beat"></i>
+                </div>
+                <!--menu do site-->
+                <div class="menu-iconi" onclick="openMenu()">
+                </div>
+             </nav>
+        </div>
+        <!--end container-->
+    </header> 
+    <section class="contato"> 
+        <div class="container">
+            <div class="contato-info">
 
-                <div class="close-iconi" onclick="closeMenu()">
-                    <i class="fa-solid fa-circle-xmark"></i>
+                <div class="left-side">
+                    <div>
+                        <i class="fa-solid fa-envelope fa-beat"></i>
+                        <p>Vivendoemlivro@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-instagram fa-beat"></i>
+                        <p>@vivendo_em_livros</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-facebook fa-beat"></i>
+                        <p>Vivendo-em-livros.oficial</p>
+                    </div>
                 </div>
-            </ul>
-            <div class="menu-iconi" onclick="openMenu()">
-                <i class="fa-solid fa-bars fa-beat"></i>
-            </div>
-            <!--menu do site-->
-            <div class="menu-iconi" onclick="openMenu()">
-            </div>
-         </nav>
-    </div>
-    <!--end container-->
-</header>
-<section class="contato"> 
-    <div class="container">
-        <div class="contato-info">
-            <div class="left-side">
-                
-                <div><i class="fa-solid fa-envelope fa-beat"></i>
-                <p>Vivendoemlivro@gmail.com</p>
+
+                <div class="right-side">
+                    <form>
+                     <input type="text" placeholder="Nome" required>  
+                     <input type="email" placeholder="E-mail" required>
+                     <input type="text" placeholder="Assunto" required>
+                     <textarea  cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+                     <button class="btn">Enviar</button>
+                    </form>
                 </div>
-                <div>
-                    <i class="fa-brands fa-instagram fa-beat"></i>
-                    <p>@vivendo_em_livros</p>
-                </div>
-                <div>
-                    <i class="fa-brands fa-facebook fa-beat"></i>
-                    <p>Vivendo-em-livros.oficial</p>
-                </div>
-            </div>
-            <div class="right-side">
-                <form>
-                  <input type="text" placeholder="Nome" required>  
-                  <input type="email" placeholder="E-mail" required>
-                  <input type="text" placeholder="Assunto" required>
-                  <textarea  cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
-                  <button class="bnt">Enviar</button>
-                </form>
             </div>
         </div>
-        
-    </div>
-     
     <footer class="foorter-mae">
         <div class="img">
             <img src="../imagens/facebook.png" alt="facebook">

@@ -1,76 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">  
-<div class="capa">
 <head>
-
-    <title>BLOG 01</title>
+    
+    <title>vivendo de sonhos</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/css/style.css">
+    <script src="https://kit.fontawesome.com/d8ab5a5db9.js" crossorigin="anonymous"></script>
 </head> 
- 
+
 <body>
-    <header>
-        <h1>Blog</h1>
-    </header>
-    <nav>
-   <ul>
-    <li><a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/index.html">home</a></li>
-    <li><a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/sobre.html">sobre</a></li>
-    <li><a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/contato.html">contato</a></li>
-     <li><a href="https://resenhandosonhos.com/" target="_blank">blog do livro</a></li>   
-</ul>
- </nav>
-    <div class="row">
-        <section>
-           
-            <article class="card"> 
-                <h2> Artigo 2 </h2>
-                <img src="imagem.html/CapaAbertaPerdida.jpg" alt="livro"/>
-                 <h3>Sobre o livros</h3>
-                <p>Perdida é o título de estreia de Carina Rissi. O primeiro livro <br>da série best-seller homônima que estabeleceu a autora como <br>uma das escritoras mais queridas entre leitores de todas <br>as idades.
+  <!--header-->
+    <header style="background-image: url('../imagens/headerSR.png');" class="cabecario">
+        <div class="container">
+             <nav>
+                <!--logo do dite-->
+                <a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/index.html">
+                    <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/0.png" aling="left" alt="logo" width="100px" height="100px"> 
+                </a>
+                <!--fim do logo do site-->
+                <!--menu do site-->
+                <ul class="ul">
+                    <a  class="btn" href="../templates/login.html">home</a></li>
 
-                    Neste livro conhecemos Sofia, que vive em <br>uma metrópole e está acostumada com a modernidade e as facilidades <br>que ela traz. Ligeiramente viciada em tecnologia <br>acredita que não saberia viver sem computador, celular e... <br> microondas.
-                    
-                    Cética e independente, Sofia <br>tem como melhor amiga, Nina, uma bela jovem que esteve <br>ao seu lado em todos os momentos difícieis em que <br>precisou de apoio. Ao contrário da amiga, que faz planos para <br>sbeu futuro romântico, Sofia tem pavor à mera menção da <br>palavra casamento.
-                    
-                    Viver em função de uma só pessoa, <br>como se sua vida apenas tivesse sentido se ela estivesse <br>por perto? Acordar e olhar para a mesma pessoa todo santo dia! <br>Ter que cuidar da casa, do marido, dos filhos, do cachorro, trabalhar ... <br>Casamenro, não seria um tipo de sentença de escravidão? Enfim! Os <br>únicos romances na vida de Sofia são aqueles que os livros proporcionam.</p>
-                
-                
-            </article>
-        </section>
-        <aside>
-            <article class="card">
-                <ul>
-                <li><a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/index.html">Perdida</li>
-            </ul>
-                <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/perdida-capa.png" alt=" capa do livro desencantada" 
-                width="" height="">
-                <p>"
-                    Desencantada: entregando-se aos segredos do <br>amor é o quinto volume da série Perdida.  O homônimo primeiro <br>livro da série já foi publicado em Portugal, na Itália,<br> Rússia e Ucrânia.</p>
-            </article>
-            <article class="card">
-                <ul>
-                    <li><a href="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/templates/sobre_03.html">Mentira Perfeita</li>
+                    <div class="close-iconi" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
                 </ul>
-                <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/entira perfeita.......jpg" alt="livro mentira perfeita">
-                <br>
-                <p>Com Mentira perfeita, Carina <br>Rissi prova mais uma vez que o seu forte <br>é contar boas histórias, com ritmo acelerado e repletas <br>de paixão, humor e reviravoltas.
-
+                <div class="menu-iconi" onclick="openMenu()">
+                    <i class="fa-solid fa-bars fa-beat"></i>
+                </div>
+                <!--menu do site-->
+                <div class="menu-iconi" onclick="openMenu()">
+                </div>
+             </nav>
+        </div>
+        <!--end container-->
+    </header>
+    <!--fim do header-->
+    <!--selecao de livros-->
+    <section class="selecao-de-livros">
+        <!--container-->
+        <div class="container">
+            <div class="selecao-de-livros-text">
+                <h3>Perdida </h3><h4>De Carina Rissi</h4>
+                <p>Perdida é o título de estreia de Carina Rissi.
+                     O primeiro livro <br>da série best-seller
+                     homônima que estabeleceu a autora como <br>uma das escritoras 
+                     mais queridas entre leitores de todas <br>as idades.
+                    Neste livro conhecemos Sofia, que vive em <br>uma metrópole e está 
+                    acostumada com a modernidade e as facilidades <br>que ela traz. Ligeiramente 
+                    viciada em tecnologia <br>acredita que não saberia
+                    viver sem computador, celular e...
                 </p>
-            </article>
-        </aside>
-    </div> 
+            </div> 
+       <div class="selecao-de-livros-img">
+        <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/perdida-capa.png" alt="livro perdida" width="" height="">
+       </div>
+        </div>
+        <!--fim container-->
+    </section>
+    <!--fim  selecao de livros 2-->
+    <!--selecao de livros-->
+    <section class="selecao-de-livros">
+    <!--container-->
+        <div class="container">
+            <div class="selecao-de-livros-img">
+                <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/desencantada....jpg" alt="livro Desencantada" width="" height="">
+            </div>
+            <div class="selecao-de-livros-text">
+                 <h3>Desencantada</h3><h4>De Carina Rissi</h4>
+                <p>"O quinto volume da série best-seller Perdida."<br>
+                 Valentina de Albuquerque descobriu muito cedo <br>que não é
+                 nenhuma princesa encantada. Em vez <br> de bailes e romance, tudo 
+                 o que a jovem deseja é encontrar <br>um jeito de vivercom dignidade 
+                 longe do pai e da madrasta, que <br>tem como hobby fazer da vida dela um inferno.
+                 A oportunidade <br>surge com uma proposta de casamento. </p>
+            </div> 
+       
+        </div>
+    <!--fim do container-->
+    </section>
+    <!--fim da selecao de livros 2-->
+    <!--outras obras-->
+    <section class="outras-obras">
+    <!--containe-->
+         <div class="container">
+                <h3>Seleção De Obras</h3>
+                <p>De Carina Rissi</p>
+        <!--cards mae-->
+            <div class="cards-mae"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ">
+                <!-- card item 1-->
+                <div class="card-item">
+                     <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/menina veneno.jpg" alt=" menina veneno">
+                     <p class="nome-user">Menina Veneno </p>
+                     <p class="outras-obras-user"></p>
+                </div>
+                <!-- fim card item 1-->
+                <!--card intem 2-->
+                <div class="card-item">
+                    <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/quando a noite cai.jpg"alt="Livro Quando a Noite Cai">
+                    <p class="nome-user">Quando a Noite cai</p>
+                    <p class="outras-obras-user"></p>
+                </div>
+                <!-- fim card item 2-->
+                <!--card item 3 -->
+                <div class="card-item">
+                     <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/no-mundo-da-luna-carina-rissi (1).jpg" alt="Livro Nno mundo Da Luna">
+                     <p class="nome-user">No Mundo Da Luna</p>
+                     <p class="outras-obras-user"></p>
+                </div>
+                <!-- fim card item 3-->
+            </div>
+        <!--fim cards mae-->
+        </div>
+    <!--fim container--> 
+    </section>
+        <section class="compras">
+        <div class="container">
+            <h3>Sites de Compras</h3>
+            <h4>  Adiquiriseu exemplar no canais de compras</h4>
+            <div class="img">
+              <a href="https://www.amazon.com.br/ref=nav_logo"><img src="../imagens/logo amazom.jpg" alt="logo amazom"></a>
+               <a href="https://www.submarino.com.br/"><img src="../imagens/logo submarino.png" alt="logo submarino"></a>
+                <a href="https://www.saraiva.com.br/"><img src="../imagens/logo saraiva.jpeg" alt="logo saraiva"></a>
+                <a href="https://www.livrariacultura.com.br/"><img src="../imagens/logo livrariancultura.png" alt="logo livraria cultura"></a>
+               <a href="https://www.estantevirtual.com.br/"><img src="../imagens/logo estante virtual.png" alt="logo estante virtual"></a>
 
-    <footer>
-        <dl>
-            <dt>E-mail</dt>
-            <dd>Blogdasmeninas.@gmail.com</dd><br>
-
-            <dt>Telefone</dt>
-            <dd>(11) 97092-2158</dd>
-        </dl>
-        <p>Blog das Meninas</p>
-    </footer>
-</body>
+            </div>
+        </div>
+    </section>
+    <section class="selecao-de-livros">
+    <!--container-->
+        <div class="container">
+            <div class="selecao-de-livros-text">
+                <h3>Lançamento do filme baseado no livro "Perdida"</h3><h4>de Carina Rissi</h4>
+                <p>Sinopse: <br>
+            Sofia é uma garota moderna e independente, mas quando o assunto <br> 
+            é amor, os únicos romances da sua vida são aqueles do universo <br>
+            literário de Jane Austen. Após utilizar um celular emprestado, <br>
+            algo misterioso acontece e ela é transportada para um mundo  <br>
+            diferente, que se assemelha ao século XIX. Sofia é acolhida pela <br>
+            família do encantador Ian Clarke, enquanto tenta desesperadamente <br>
+            encontrar uma forma de retornar a sua vida. O que ela não sabia é <br>
+            que seu coração tinha outros planos. <br>
+            
+            Curiosidades: 
+            » O longa é baseado no livro homônimo escrito por Carina Rissi;</p>
+            </div> 
+            <div class="selecao-de-livros-img">
+                <img src="/BLOG DE LIVROS - atualizado/BLOG DE LIVROS/imagens/poste do fime perdida.jpg" alt="poster do filme perdida" width="" height="">
+            </div>
+       
+        </div>
+    <!--fim container-->
+    </section>
+        <!--foorter-->
+         <footer class="foorter-mae">
+            <div class="img">
+                <img src="../imagens/facebook.png" alt="facebook">
+                <img src="../imagens/instagram.png" alt="instagram">
+                <img src="../imagens/linkedin.png" alt="linkedin">
+            </div>
+            <div class="h4">
+                <H4>Desenvolvido por Tamiris e Larissa</H4>
+            </div>
+        </footer>
+        <!--fim do foorter-->
+   <script src="/js/main.js"></script>
+    </body>
 </html>
+
+
+

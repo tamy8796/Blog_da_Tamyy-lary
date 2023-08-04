@@ -273,6 +273,52 @@ align-items: center;
     margin-right: 50px;
     height: fit-content;
 }
+.contato-info .left-side div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contato-info .left-side div{
+    font-size: 24px;
+    margin-right: 20px;
+    color: white;
+}
+.contato-info .left-side p{
+    font-size: 17px;
+    color: white;
+}
+.contato-info .right-side{
+    width: 50%;
+}
+.contato-info .right-side input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1 px solid #96668f;
+    color: #382233;
+    font-weight: lighter;
+}
+.contato-info .right-side input:focus,
+.contato-info .right-side textarea:focus{
+    border-color: #ac8080;
+
+}
+.contato-info .right-side textarea{
+    border: 2px solid #5a0353;
+    color: #611c5b;
+    border-radius: 9px;
+    margin-bottom:10px ;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
+}
+
+
 @media (max-width:830px) {
     /* menu mobile */
    .ul{
@@ -305,6 +351,23 @@ align-items: center;
             top: 46px;
             right: 28px;
     }
+    /* pagina reposiva*/
+    .selecao-de-livros .selecao-de-livros-text{
+        margin-top: 10px;
+        padding: 0 20px;
+        order: 1px; 
+    }
+    .selecao-de-livros ,.container{
+        flex-direction: column;
+
+    }
+    .selecao-de-livros .selecao-de-livros-text h3{
+        font-size: 48px;
+    }
+     .selecao-de-livros .selecao-de-livros-text,
+     .selecao-de-livros .selecao-de-livros-img{
+        width: 100%;
+     }
 }
 
 /*  pagina sobre*/
