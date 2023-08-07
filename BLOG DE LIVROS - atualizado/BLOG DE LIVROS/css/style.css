@@ -8,7 +8,7 @@
     
 }
 body{
- background-color: #f1e0ed48;
+ background-color: #f0e6e841;
 }
 
 select, footer{
@@ -35,6 +35,7 @@ header{
     background-attachment: fixed;
     width:100% ;
     height: 610px;
+    margin: 0 0 0 0;
 }
 /* tag nav*/
 nav{
@@ -88,7 +89,7 @@ nav .close-iconi{
 /*  classe btn */
 
 .btn{
-    background-color: #aa2970;
+    background-color: #ec7589d8;
     color:white;
     padding: 15px 20px ;
     border-radius: 10px;
@@ -100,7 +101,7 @@ nav .close-iconi{
     animation: animate-outline 1s ease-out infinite;
 }
 .btn:hover{
-    background-color: #2b1123d8;
+    background-color:#f04662d8;
 }
 /* fim btn */
 
@@ -108,18 +109,16 @@ nav .close-iconi{
 
 @keyframes animate-outline{
     from{
-         outline: 0px solid #562b5ed8;
+         outline: 0px solid #f04662d8
     }
     to{
    outline: 15px solid #4f9bf900;
     }
 }
 .sobre  h3 {
-    color: white;
+    color: rgb(17, 16, 16);
 }
-.cards-mae{
-    height: 500px;
-}
+
 .banner{
     margin: 50px;
 }
@@ -155,10 +154,12 @@ color: black;
 .selecao-de-livros .container{
     display: flex;
     align-items: center;
+    background-color: #e68a96;
 }
 .selecao-de-livros .selecao-de-livros-text{
     width: 50%;
     padding: 0 40px;
+
 }
  .selecao-de-livros .selecao-de-livros-text h3{
     font-size: 56px;
@@ -189,7 +190,7 @@ color: black;
     text-align: center;
 }
 .outras-obras .card-item{
-    background-color:#5c0c3a ;
+    background-color: #f04662d8;
     margin: 15px; 
     border-radius: 14px;
     text-align: center;
@@ -202,7 +203,7 @@ color: black;
     margin: 10px auto;
 }
 .outras-obras .card-item .nome-user{
-    font-weight: 600px;
+    font-weight: 00px;
     font-size: 20px;
     margin-bottom: 15px;
     transition: 0.3s;
@@ -214,12 +215,12 @@ color: black;
 }
 
 .outras-obras .card-item:hover{
-    background-color: #db76b4;
+    background-color: #f04662d8;
     margin-top: -5px;
 }
 .outras-obras .card-item:hover .nome-user,
 .outras-obras .card-item:hover .outras-obras-user{
-    color:white ;
+    color:white;
 }
 /* fim da classe outras obras*/
 
@@ -246,10 +247,11 @@ color: black;
 
 /* foorter*/
 .foorter-mae{
-    background-color: #5c0c3a;
+    background-color: #f15167c4;
     text-align: center;
     display: flex;
     justify-content: center;
+    margin: 10px 0 0 0;
 }
 .foorter-mae img{
     width: 50px;
@@ -274,7 +276,7 @@ align-items: center;
 .contato-info .left-side{
     width:  400px;
     padding: 38px;
-    background-color: #33032f;
+    background-color:#e68a96;
     border-radius: 14px;
     margin-right: 50px;
     height: fit-content;
@@ -304,8 +306,8 @@ align-items: center;
     padding: 15px;
     border-radius: 9px;
     transition: 0.3s;
-    border: 1 px solid #96668f;
-    color: #382233;
+    border: 1 px solid #e68a96;
+    color: #e68a96;
     font-weight: lighter;
 }
 .contato-info .right-side input:focus,
@@ -314,8 +316,8 @@ align-items: center;
 
 }
 .contato-info .right-side textarea{
-    border: 2px solid #5a0353;
-    color: #611c5b;
+    border: 2px solid #e68a96;
+    color: #e68a96;
     border-radius: 9px;
     margin-bottom:10px ;
     padding: 15px;
@@ -331,7 +333,7 @@ align-items: center;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #33032f;
+    background-color: #e68a96;
     width: 100%;
     height: 100%;
     flex-direction:column ;
@@ -362,6 +364,7 @@ align-items: center;
         margin-top: 10px;
         padding: 0 20px;
         order: 1px; 
+    
     }
     .selecao-de-livros ,.container{
         flex-direction: column;
@@ -386,7 +389,7 @@ align-items: center;
     text-align: center;
 }
 .card2 .card-item{
-    background-color:#aa2970 ;
+    background-color:#e68a96;
     margin: 15px 50px 15px; 
     border-radius: 15px;
     text-align: center;
@@ -411,12 +414,12 @@ align-items: center;
 }
 
 .card2 .card-item:hover{
-    background-color: #8b2a6e;
+    background-color:#e68a96;
     margin-top: -5px;
 }
 .card2 .card-item:hover .nome-user,
 .card2 .card-item:hover .outras-obras-user{
-    color:white ;
+    color:rgb(29, 17, 1) ;
 }
 
 /* criacao do blog*/
@@ -431,7 +434,7 @@ align-items: center;
     text-align: center;
 }
 .card3 .card-item{
-    background-color:#ac8080 ;
+    background-color: #e68a96;
     margin: 15px 50px 15px; 
     border-radius: 15px;
     text-align: center;
@@ -452,7 +455,7 @@ align-items: center;
 }
 
 .card3 .card-item:hover{
-    background-color: #861a59;
+    background-color: #f04662d8;
     margin-top: -5px;
 }
 .card3 .card-item:hover .nome-user,
